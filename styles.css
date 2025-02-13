@@ -1,9 +1,12 @@
+html{
+    margin: 0;
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: navy;
+    background: darkblue;
     padding: 40px;
-
+    margin: 0;
 }
 
 .header {
@@ -31,8 +34,6 @@ li {
     align-content: center;
     gap: 100px;
     color: white;
-
-
 }
 
 .container {
@@ -71,5 +72,42 @@ li {
     border: 5px solid white
 }
 
+
+
+.main-container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: azure;
+    margin-top: 50px;
+    padding: 50px;
+    margin-left: -50px;
+    margin-right: -50px;
+    height: 250px;
+    flex-direction: column;
+}
+
+.main-title {
+    font-size: 25px;
+}
+
+.info-container {
+    display: flex;
+}
+
+.info {
+    max-width: 200px;
+}
+
+img {
+    border: 10px solid black;
+    border-radius: 40px
+
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
 
 
