@@ -18,6 +18,8 @@ body {
 
 }
 
+
+
 .buttons button {
     background-color: #3882F6;
     color: white;
@@ -54,6 +56,7 @@ li {
     padding: 40px;
 }
 
+
 .container {
     max-width: 100%;
     text-wrap: wrap;
@@ -67,21 +70,20 @@ li {
 }
 
 .sub-title {
-    font-size: 20px;
+    font-size: 18px;
     text-wrap: wrap;
     margin-top: 10px;
     margin-bottom: 10px;
     color: rgb(225, 225, 225);
 }
 
-
-.placeholder-image {
+.image-hero {
     display: flex;
-    align-items: center;
+    height: 300px;
+    width: 400px;
+    border: 20px solid #e5e7eb;
     justify-content: center;
-    height: 200px;
-    width: 500px;
-    border: 5px solid white
+
 }
 
 
@@ -103,24 +105,21 @@ li {
 
 .info-container {
     display: flex;
+    align-items: center;
+    gap: 50px;
 }
 
 .info {
-    max-width: 200px;
-    font-size: 16px;
-    padding: 20px;
+
     text-align: center;
-    gap: 10px;
+
 }
 
-img {
-    border: 10px solid black;
-    border-radius: 100px;
-    padding: 20px;
-    width: 200px;
-    height: auto;
-    margin-bottom: 10px;
+.info img {
+    height: 150px;
+    width: 150px;
 }
+
 
 h2 {
     text-align: center;
@@ -189,6 +188,7 @@ h2 {
 .cta-title {
     color: white;
     font-weight: 900px;
+    font-size: 20px;
 }
 
 .cta-sub-title {
